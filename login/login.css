@@ -1,0 +1,216 @@
+body {
+    background-image: url(img/background.png);
+    width: 4000px;
+    height: 2667px;
+}
+section {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    position: absolute;
+    height: 1163px;
+    width: 1341px;
+    left: 1329px;
+    top: 752px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;  
+    color: #243D6F;
+    text-align: center;
+    padding-top: 154px;
+}
+.sign_in {
+    padding: 0 674px 0 375px;
+    position: absolute;
+}
+.sign_up {
+    padding: 0 374px 0 681px;
+}
+.btn_si{
+    height: 84px;
+    width: 292px;
+    border-radius: 13px;
+    background-color: #1A2D54;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 56px;
+    border: none;
+}
+.btn_su{
+    height: 84px;
+    width: 292px;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+    color: #1A2D54;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 56px;
+    border: 5px solid #1A2D54;
+}
+.input_login {
+    padding: 103px 310px 65px 310px ;
+}
+.input_pass {
+    padding: 0 310px 32px 310px ;
+}
+.input_login input::placeholder {
+    color: #1A2D54;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 20px;
+}
+.input_pass input::placeholder {
+    color: #1A2D54;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 20px;
+}
+.login {
+    border: 5px solid #1A2D54;
+    border-radius: 13px;
+    width: 721px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+.password {
+    border: 5px solid #1A2D54;
+    border-radius: 13px;
+    width: 721px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+.input_login input:focus {
+    color: #1A2D54;
+    font-weight: 600;
+    transition: .1s;
+    transition-property: all;
+}
+.input_login input:focus::placeholder{
+    color: #ffffff;
+    transition: .3s;
+    transition-property: all;
+}
+.input_pass input:focus {
+    color: #1A2D54;
+    font-weight: 600;
+    transition: .1s;
+    transition-property: all;
+}
+.input_pass input:focus::placeholder{
+    color: #ffffff;
+    transition: .3s;
+    transition-property: all;
+}
+.label {
+    padding-left: 310px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A2D54;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.label p {
+    padding-left: 15px;
+}
+.label a {
+    color: #1A2D54;
+    text-decoration: none;
+    padding-left: 300px;
+}
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+   }
+   .switch input {
+    opacity: 1;
+    width: 0;
+    height: 0;
+   }
+   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: #ffffff;
+    transition: .4s;
+    border-radius: 8px;
+    border: 3px solid #1A2D54;
+   }
+   input:checked + .slider {
+    background-color: #1A2D54;
+    border: 1px solid transparent;
+   }
+   
+   input:checked + .slider:before {
+    transform: translateX(1.5em);
+   }
+
+
+
+
+section .sign_in2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    border: none;
+    border-radius: 13px;
+    color: #1A2D54;
+    transition: all 1000ms;
+    font-size: 15px;
+    overflow: hidden;
+    outline: 5px solid #1A2D54;
+    height: 84px;
+    width: 510px;
+    left: 416px;
+    top: 883px;
+    font-size: 48px;
+    line-height: 56px;
+    position: absolute;
+    font-weight: 600;
+  }
+  
+  .sign_in2:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #1A2D54;
+    box-shadow: 4px 5px 17px -4px #1A2D54;
+  }
+  
+  .sign_in2::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1A2D54;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .sign_in2:hover::before {
+    width: 250%;
+  }
+.version {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A2D54;
+    padding: 582px;
+    padding-top: 280px;
+}
