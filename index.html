@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="all">
+        <div class="menu">
+            <div class="container">
+                <div class="circle circle-red">
+        
+                </div>
+                <div class="circle circle-yellow">
+            
+                </div>
+                <div class="circle circle-green">
+            
+                </div>
+            </div>
+            <header class="header">
+                <section>
+                    <nav class="left-panel">
+                        <h2 class="title">Menu</h2>
+                        <ul class="menu-list">
+                            <li><a href="#"> <img src="img/calendar-icon.svg" alt="">Calendar</a></li>
+                            <li><a href="#"> <img src="img/document-icon.svg" alt="">Saved notes</a></li>
+                            <li><a href="#"> <img src="img/task-icon.svg" alt="">Events</a></li>
+                            <li><a href="#"> <img src="img/email-icon.png" alt=""> Email</a></li>
+                            <li><a href="#"> <img src="img/chat-icon.svg" alt=""> Chats</a></li>
+                            <li><a href="#"> <img src="img/settings-icon.svg" alt=""> Preferences</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </section> 
+            </header> 
+        </div>
+        <div class="notes">
+            <section>
+                <div class="main-content-title">
+                    <nav class="center-panel">
+                        <h1 class="header-menu">22 March 2018</h1>
+                        <ul class="toolbar-list">
+                            <li><button><img src="/img/search-icon.svg" alt="search-icon"></button></li>
+                            <li><button><img src="img/layout-icon.svg" alt="layout-icon"></button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </div>
+        <div class="calendar">
+            <section class="right-panel">
+                <div>
+                    <h2>Your categories</h2>
+                    <a href="finance">FINANCE</a>
+                    <a href="management">MANAGEMENT</a>
+                    <a href="design">DESIGN</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <style>
+        body{
+            background: url("img/background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .all{
+            display: flex;
+            width: 80%;
+            height: 80vh;
+        }
+        .menu{
+            width: 15%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: brur(15px);
+        }
+        .notes{
+            width: 65%;
+            height: 100%;
+            background: #FFFFFF;
+        }
+        .calendar{
+            width: 27.5%;
+            height: 100%;
+            background: rgba(42, 46, 65, 0.7);
+            backdrop-filter: blur(15px)
+        }
+        .circle{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .circle-red{
+            background: #FF534F;
+        }
+        .circle-yellow{
+            background: #FFBC00;
+        }
+        .circle-green{
+            background: #00CF1D;
+        }
+        .center-panel{
+            position: absolute;
+            width: 1255px;
+            height: 133px;
+        }
+        .header-menu{
+            position: absolute;
+            height: 43px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 42px;
+            color: #243D6F;
+        }
+        .toolbal-list{
+            position: absolute;
+        }
+        .right-panel{
+            position: absolute;
+            height: 372px;
+            width: 599px;
+            left: 2706px;
+            top: 1518px;
+            border-radius: [object Object]px;
+        }
+        .finance{
+            height: 80px;
+            width: 285px;
+            box-sizing: border-box;
+            position: absolute;
+            background: #8576ED;
+            border-radius: 12px;
+        }
+        h2{
+            position: absolute;
+height: 31px;
+left: 67.65%;
+right: 27.77%;
+top: calc(50% - 31px/2 + 309px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+        }
+    </style>
+</body>
+</html>
